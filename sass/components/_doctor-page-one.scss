@@ -1,0 +1,252 @@
+.education {
+    // background-color: #7291ed96;
+    padding: 28px 22px;
+    border-radius: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.doctor_title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: var(--title-pages);
+    margin: 32px 0 40px 0;
+
+}
+.medical_education {
+    text-align: center;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 1.6;
+        letter-spacing: 0.03em;
+        color: var(--title-pages);
+        margin-bottom: 26px;
+}
+.education_item {
+    margin-bottom: 12px;
+}
+
+.education_wrap,
+.professional_wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.education_icon {
+    margin-right: 12px;
+    fill: #214ccf;
+}
+
+.education_subtitle {
+    font-size: 18px;
+    margin: 10px 0;
+    @media screen and (min-width: 1200px) {
+        font-weight: 700;
+            font-size: 20px;
+            line-height: 2.0;
+            letter-spacing: 0.06em;
+            color: var(--title-pages);
+            margin-bottom: 0;
+    }
+   
+
+}
+
+.education_subtitle_years {
+    font-size: 12px;
+    @media screen and (min-width: 1200px) {
+        font-weight: 500;
+            font-size: 14px;
+            line-height: 2.0;
+            letter-spacing: 0.06em;
+            color: var(--title-pages);
+    }
+    
+}
+
+.education_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: .03em;
+    color: var(--title-pages);
+}
+.professional {
+    // background-color: #2c764872;
+    padding: 28px 22px;
+    border-radius: 20px;
+    border-top: 2px solid black;
+        border-bottom: 2px solid black;
+}
+
+.doctor_quality_description {
+    text-align: center;
+    text-indent: 2em;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: var(--title-pages);
+        margin-bottom: 42px;
+   
+    
+
+}
+
+
+.professional_icon {
+    margin-right: 12px;
+    fill: #205835;
+}
+.scientific_icon {
+    margin-right: 12px;
+        fill: #d11212;
+}
+
+.professional_subtitle {
+    font-size: 18px;
+    margin: 10px 0;
+    @media screen and (min-width:  1200px) {
+        font-weight: 700;
+            font-size: 22px;
+            line-height: 2.0;
+            letter-spacing: 0.06em;
+            color: var(--title-pages);
+            margin-bottom: 0;
+        
+    }
+}
+
+.professional_subtitle_years {
+    font-size: 12px;
+    @media screen and (min-width: 1200px) {
+        font-weight: 500;
+            font-size: 14px;
+            line-height: 2.0;
+            letter-spacing: 0.06em;
+            color: var(--title-pages);
+    }
+    
+}
+
+.professional_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: .03em;
+    color: var(--title-pages);
+}
+
+
+
+// .education {
+//     background-color: #7291ed96;
+//     padding: 28px 22px;
+//     border-radius: 20px;
+// }
+
+// .doctor_title {
+//     text-align: center;
+//     font-weight: 700;
+//     font-size: 32px;
+//     line-height: 1.6;
+//     letter-spacing: 0.03em;
+//     color: var(--title-pages);
+//     margin: 32px 0 40px 0;
+
+// }
+// .education_item {
+//     margin-bottom: 20px;
+// }
+// .education_wrap, .professional_wrap {
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+// }
+// .education_icon {
+//     margin-right: 12px;
+//     fill: #214ccf;
+// }
+// .education_subtitle {
+//     font-weight: 700;
+//     font-size: 22px;
+//     line-height: 2.0;
+//     letter-spacing: 0.06em;
+//     color: var(--title-pages);
+
+// }
+// .education_subtitle_years {
+//     font-weight: 500;
+//         font-size: 14px;
+//         line-height: 2.0;
+//         letter-spacing: 0.06em;
+//         color: var(--title-pages);
+// }
+// .education_description {
+//     font-weight: 400;
+//                 font-size: 16px;
+//                 line-height: 1.6;
+//                 letter-spacing: .03em;
+//         color: var(--title-pages);
+// }
+
+// .professional {
+//     background-color: #2c764872;
+//         padding: 28px 22px;
+//         border-radius: 20px;
+// }
+
+// .doctor_quality_description {
+//     text-indent: 2em;
+//     font-weight: 400;
+//         font-size: 16px;
+//         line-height: 1.88;
+//         letter-spacing: 0.03em;
+//         color: var(--title-pages);
+        
+// }
+
+// .professional_icon {
+//     margin-right: 12px;
+//         fill: #205835;
+// }
+// .professional_subtitle  {
+// font-weight: 700;
+//     font-size: 22px;
+//     line-height: 2.0;
+//     letter-spacing: 0.06em;
+//     color: var(--title-pages);
+// }
+// .professional_subtitle_years {
+//     font-weight: 500;
+//         font-size: 14px;
+//         line-height: 2.0;
+//         letter-spacing: 0.06em;
+//         color: var(--title-pages);
+// }
+// .professional_description {
+// font-weight: 400;
+//     font-size: 16px;
+//     line-height: 1.6;
+//     letter-spacing: .03em;
+//     color: var(--title-pages);
+    
+// }
+// .doctor_quality_description_bottom {
+//     margin-bottom: 24px;
+// }
+
+
+
+
+
+
+
+
+
+
+

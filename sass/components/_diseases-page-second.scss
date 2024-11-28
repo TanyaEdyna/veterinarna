@@ -1,0 +1,115 @@
+
+// .deseases {
+
+//         max-width: 1600px;
+//         background-color: var(--hero-footer-background);
+//         // background-image: linear-gradient(rgba(169, 170, 183, 0.7),
+//         //         rgba(170, 171, 185, 0.7)),
+//         //     url(../img/bg/bg2.jpeg);
+//         background-repeat: no-repeat;
+//         background-position: center;
+//         background-size: cover;
+//         margin: 40px auto;
+//         padding: 40px 0;
+    
+// }
+.deseases_title {
+    text-align: justify;
+    font-weight: 500;
+        font-size: 18px;
+        line-height: 1.7;
+        letter-spacing: 0.07em;
+        color: var(--title-pages);
+        margin-bottom: 4px;
+        margin: 40px 0 40px;
+    
+}
+.deseases_title_accent {
+    font-weight: 700;
+    color: var(--title-pages);
+}
+.deseases_list {
+    border: 1px solid rgb(70, 70, 118);
+    border-radius: 22px;
+    padding: 34px;
+    margin-bottom: 12px;
+    background-color: rgba(215, 233, 250, 0.674);
+    
+    @media screen and (min-width: 1200px) {
+        display: flex;
+            gap: 32px;
+            padding: 16px;
+            margin-bottom: 24px;
+            // background-color: rgba(215, 233, 250, 0.674);
+            border: 1px solid rgb(70, 70, 118);
+            border-radius: 22px;
+        }
+    }
+
+.deseases_list_img {
+    margin-bottom: 10px;
+    @media screen and (min-width: 1200px) {
+        display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+}
+
+
+.deseases_img {
+    width: 330px;
+    border-radius: 22px;
+}
+
+.deseases_subtitle {
+    font-weight: 700;
+        font-size: 22px;
+        line-height: 2.0;
+        letter-spacing: 0.06em;
+        color: var(--title-pages);
+}
+.deseases_description {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: var(--title-pages);
+}
+.deseases_description_accent {
+    font-weight: 600;
+}
+
+// .deseases_item {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+
+// }
+// .deseases_subtitle {
+//     color: var(--text-color);
+//     // color: whitesmoke;
+//     font-weight: 700;
+//     font-size: 16px;
+//     line-height: 1.14;
+//     letter-spacing: 0.02em;
+//     text-transform: uppercase;
+//     margin-bottom: 18px;
+// }
+
+// .deseases_img {
+//     width: 280px;
+//     margin-bottom: 14px;
+// }
+// .deseases_img_size {
+//     width: 220px;
+//     margin-bottom: 14px;
+// }
+// .deseases_description {
+//     text-align: center;
+//     color: var(--text-color);
+//     font-weight: 500;
+//     font-size: 16px;
+//     line-height: 1.14;
+//     letter-spacing: 0.02em;
+//     margin-bottom: 24px;
+// }

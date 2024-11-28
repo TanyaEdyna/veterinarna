@@ -1,0 +1,96 @@
+
+
+
+.header_navigatons {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 12px;
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        margin: 32px 0;
+    }
+    
+
+}
+
+.header-navigations_list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+    @media screen and (min-width: 1200px) {
+        display: flex;
+            gap: 36px;
+            flex-direction: row;
+    }
+    
+
+}
+.header-navigations_item { 
+    @media screen and (max-width: 480px) {
+        border: 1px solid var(--accent-dark-color);
+            padding: 8px 0;
+            text-align: center;
+            border-radius: 12px;
+            background: var(--title-color);
+    }
+        
+}
+
+.header-navigations_link {
+    color: white;
+    @media screen and (min-width: 1200px) {
+            font-weight: 500;
+                font-size: 18px;
+                line-height: 1.6;
+                letter-spacing: 0.03em;
+    }
+
+}
+
+.header_line {
+    border-bottom: 2px solid var(--accent-dark-color);
+}
+.header_first_page {
+    @media screen and (max-width: 480px) {
+        text-align: center;
+        
+    }
+}
+.header-navigations_link_neurology {
+        font-size: 14px;
+            margin: 0 auto;
+            text-align: center;
+            font-weight: 700;
+            color: #214CCF;
+
+    @media screen and (min-width: 1200px) {
+        display: block;
+            margin-left: 120px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 1.6;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+    }
+    
+
+}
+
+.header-navigations_link_neurology:hover {
+    color: var(--title-color);
+}
+
+.title_volkov {
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    margin: 48px 0;
+
+}
+

@@ -1,0 +1,93 @@
+.contacts_wrap {
+    display: flex;
+    gap: 60px;
+}
+.contacts_img {
+    width: 480px;
+    display: block;
+    height: auto;
+}
+.made_in_ukraine {
+    margin-top: 20px;
+    text-align: center;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.6;
+        letter-spacing: .03em;
+        color: var(--title-pages);
+}
+.made_in_ukraine_icon {
+    fill: red;
+}
+.clinic_description {
+    margin-top: 20px;
+    text-align: center;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 1.6;
+        letter-spacing: .03em;
+        color: var(--title-pages);
+}
+.clinic_description_accent {
+font-weight: 700;
+    font-size: 24px;
+}
+
+.clinic_description_invite {
+    margin-top: 20px;
+    text-align: center;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 1.6;
+        letter-spacing: .03em;
+        color: var(--title-pages);
+}
+.clinic_hours_title {
+    margin-top: 20px;
+        // text-align: center;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.6;
+        letter-spacing: .03em;
+        color: var(--title-pages);
+}
+.clinic_hours_title_accent {
+    font-weight: 500;
+        font-size: 18px;
+}
+.clinic_hours_description {
+    margin-top: 10px;
+        // text-align: center;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 1.6;
+        letter-spacing: .03em;
+        color: var(--title-pages);
+}
+.clinic_hours_description_accent {
+    font-weight: 700;
+font-size: 18px;
+}
+.clinic_address {
+    margin-top: 10px;
+        // text-align: center;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 1.6;
+        letter-spacing: .03em;
+        color: var(--title-pages);
+}
+.clinic_address_description_accent {
+
+        // text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        letter-spacing: .03em;
+        color: var(--title-pages);
+    color: rgb(227, 28, 28);
+}
+.clinic_address_accent {
+font-weight: 700;
+    font-size: 18px;
+}
