@@ -136,7 +136,14 @@
     border-radius: 5px;
 }
 
-
+.team_subtitle {
+    font-weight: 700;
+        font-size: 28px;
+        line-height: 1.6;
+        letter-spacing: .06em;
+        font-style: italic;
+        color: var(--title-pages);
+}
 // .diagnostic_list {
 //     display: flex;
 //   flex-direction: row;
